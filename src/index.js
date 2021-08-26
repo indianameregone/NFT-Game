@@ -29,16 +29,12 @@ function App() {
         <div className='indorse'>
           <a href='https://indorse.io/'>Indorse</a><br/><br/>
           <a href='https://ipfs.io/'>IPFS</a><br/><br/>
-          <img src={facebook} className='social-m'/>
-          <img src={twitter} className='social-m'/>
-          <img src={instagram } className='social-m'/> 
-        </div>     
+          <img src={facebook} className='social-m'alt=''/>
+          <img src={twitter} className='social-m'alt=''/>
+          <img src={instagram } className='social-m'alt=''/> 
+        </div>
          
-      </div>
-      
-        
-      
-      
+      </div>     
     </div>    
     </div>
   );

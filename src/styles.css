@@ -4,8 +4,7 @@
   box-sizing: border-box;
   background-color: rgb(27, 85, 162);
   font-family: 'Josefin Sans', sans-serif;  
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 
 .App {
@@ -170,7 +169,7 @@
   }
 
 }
-@media(min-width:480px){
+@media(max-width:480px){
   .board-bg h3{
     font-size: 2em;    
     left:30%
@@ -187,5 +186,4 @@
     margin-left: 20%;
   }
   
-
 }

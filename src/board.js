@@ -7,6 +7,7 @@ import Init from './init';
 import Gallery from './gallery';
 
 
+
 function Board(){
     return(
         <div className='img'>
@@ -23,7 +24,7 @@ function Board(){
                     </Route>
                     <Route path="/gallery">
                         <Gallery/>
-                    </Route>
+                    </Route>                    
                 </Switch>                           
             </Router>
            
